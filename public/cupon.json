@@ -1,0 +1,295 @@
+[
+    {
+      "_id": "1",
+      "brand_name": "StyleHive",
+      "rating": 4.5,
+      "description": "Trendy fashion apparel for every season.",
+      "brand_logo": "https://i.ibb.co.com/XrXNtVnT/branding-advertisment-copyright-value-profile-concept.jpg",
+      "coupons": [
+        {
+          "coupon_code": "STYLE20",
+          "description": "Get 20% off on all orders above $50.",
+          "expiry_date": "2025-06-30",
+          "condition": "Minimum purchase of $50",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "FREEDEL",
+          "description": "Enjoy free delivery on orders over $30.",
+          "expiry_date": "2025-05-15",
+          "condition": "Applies to standard shipping only",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop_Link": "https://stylehive.com",
+      "category": "Fashion",
+      "isSaleOn": true
+    },
+    {
+      "_id": "2",
+      "brand_name": "TechieMart",
+      "rating": 4.7,
+      "description": "Your go-to place for the latest gadgets.",
+      "brand_logo": "https://i.ibb.co.com/tPpXhc1d/pile-3d-play-button-logos.jpg",
+      "coupons": [
+        {
+          "coupon_code": "GADGET10",
+          "description": "Flat 10% off on all gadgets.",
+          "expiry_date": "2025-07-10",
+          "condition": "Valid for all electronic items",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://techiemart.com",
+      "category": "Electronics",
+      "isSaleOn": false
+    },
+    {
+      "_id": "3",
+      "brand_name": "BeautyBloom",
+      "rating": 4.3,
+      "description": "Skincare and makeup made just for you.",
+      "brand_logo": "https://i.ibb.co.com/3mY36Ph9/3d-render-vs-company-metal-letter-logo-pen-tool-created-clipping-path-included-jpeg-easy-composite.jpg",
+      "coupons": [
+        {
+          "coupon_code": "BLOOM30",
+          "description": "30% off sitewide on your first purchase.",
+          "expiry_date": "2025-06-01",
+          "condition": "First-time customers only",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://beautybloom.com",
+      "category": "Beauty",
+      "isSaleOn": true
+    },
+    {
+      "_id": "4",
+      "brand_name": "GearRush",
+      "rating": 4.0,
+      "description": "Premium sportswear and gear.",
+      "brand_logo": "https://i.ibb.co.com/G31XnMnb/25th-years-anniversary-celebration-3d-render.jpg",
+      "coupons": [
+        {
+          "coupon_code": "RUSH15",
+          "description": "15% discount on selected items.",
+          "expiry_date": "2025-08-31",
+          "condition": "Valid on select collections only",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://gearrush.com",
+      "category": "Sports",
+      "isSaleOn": false
+    },
+    {
+      "_id": "5",
+      "brand_name": "EcoCart",
+      "rating": 4.8,
+      "description": "Sustainable grocery and household products.",
+      "brand_logo": "https://i.ibb.co.com/VYx2vhn8/online-marketing-branding-concept-laptop-screen.jpg",
+      "coupons": [
+        {
+          "coupon_code": "ECO5",
+          "description": "$5 off your next purchase.",
+          "expiry_date": "2025-05-10",
+          "condition": "Minimum order of $25",
+          "coupon_type": "Flat"
+        }
+      ],
+      "shop_Link": "https://ecocart.com",
+      "category": "Groceries",
+      "isSaleOn": true
+    },
+    {
+      "_id": "6",
+      "brand_name": "HomeNook",
+      "rating": 4.2,
+      "description": "Stylish furniture and decor pieces.",
+      "brand_logo": "https://i.ibb.co.com/rRLSNg1y/cleaning-concept-with-man-showing-business-card.jpg",
+      "coupons": [
+        {
+          "coupon_code": "NEST25",
+          "description": "25% off home essentials.",
+          "expiry_date": "2025-09-01",
+          "condition": "Applies to select home essentials",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://homenook.com",
+      "category": "Home & Living",
+      "isSaleOn": false
+    },
+    {
+      "_id": "7",
+      "brand_name": "EduNova",
+      "rating": 4.6,
+      "description": "Online courses and certifications.",
+      "brand_logo": "https://i.ibb.co.com/VWVHRYbH/hand-design-identity-branding-business-trademark.jpg",
+      "coupons": [
+        {
+          "coupon_code": "LEARN50",
+          "description": "50% off all courses this month.",
+          "expiry_date": "2025-04-30",
+          "condition": "Limited to 3 courses per user",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://edunova.com",
+      "category": "Education",
+      "isSaleOn": true
+    },
+    {
+      "_id": "8",
+      "brand_name": "PetPal",
+      "rating": 4.4,
+      "description": "Products your pets will love.",
+      "brand_logo": "https://i.ibb.co.com/LhgQYPFM/pile-3d-popular-social-media-logos.jpg",
+      "coupons": [
+        {
+          "coupon_code": "PETLOVE",
+          "description": "10% off pet supplies.",
+          "expiry_date": "2025-06-15",
+          "condition": "Valid on orders over $20",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://petpal.com",
+      "category": "Pet Supplies",
+      "isSaleOn": true
+    },
+    {
+      "_id": "9",
+      "brand_name": "FitFuel",
+      "rating": 4.9,
+      "description": "Healthy meals delivered to your door.",
+      "brand_logo": "https://i.ibb.co.com/YFfs3hdy/hand-holding-blank-cardboard-business-card.jpg",
+      "coupons": [
+        {
+          "coupon_code": "FUELUP",
+          "description": "Get your first meal free.",
+          "expiry_date": "2025-05-20",
+          "condition": "New customers only",
+          "coupon_type": "Free Item"
+        }
+      ],
+      "shop_Link": "https://fitfuel.com",
+      "category": "Health & Wellness",
+      "isSaleOn": true
+    },
+    {
+      "_id": "10",
+      "brand_name": "BookNest",
+      "rating": 4.1,
+      "description": "Books for every kind of reader.",
+      "brand_logo": "https://i.ibb.co.com/H1LSRvw/stationery-concept-with-sheet-folded-paper.jpg",
+      "coupons": [
+        {
+          "coupon_code": "READ10",
+          "description": "10% off on all paperbacks.",
+          "expiry_date": "2025-05-01",
+          "condition": "Excludes pre-orders",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://booknest.com",
+      "category": "Books",
+      "isSaleOn": false
+    },
+    {
+      "_id": "11",
+      "brand_name": "GlamShack",
+      "rating": 4.5,
+      "description": "Latest in fashion accessories.",
+      "brand_logo": "https://i.ibb.co.com/XrXNtVnT/branding-advertisment-copyright-value-profile-concept.jpg",
+      "coupons": [
+        {
+          "coupon_code": "GLAM25",
+          "description": "25% off accessories storewide.",
+          "expiry_date": "2025-06-18",
+          "condition": "Limited to 5 items per order",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://glamshack.com",
+      "category": "Accessories",
+      "isSaleOn": true
+    },
+    {
+      "_id": "12",
+      "brand_name": "Travelly",
+      "rating": 4.6,
+      "description": "Smart travel deals and bookings.",
+      "brand_logo": "https://i.ibb.co.com/bjvHFv2B/people-holding-linkedin-logo.jpg",
+      "coupons": [
+        {
+          "coupon_code": "TRIP100",
+          "description": "$100 off international trips.",
+          "expiry_date": "2025-07-01",
+          "condition": "Valid on trips over $1000",
+          "coupon_type": "Flat"
+        }
+      ],
+      "shop_Link": "https://travelly.com",
+      "category": "Travel",
+      "isSaleOn": false
+    },
+    {
+      "_id": "13",
+      "brand_name": "ByteSnacks",
+      "rating": 4.0,
+      "description": "Snacks for gamers and coders.",
+      "brand_logo": "https://i.ibb.co.com/skGVsYh/hand-holding-business-card-office-environment.jpg",
+      "coupons": [
+        {
+          "coupon_code": "CODECRUNCH",
+          "description": "Get a free energy bar pack.",
+          "expiry_date": "2025-05-25",
+          "condition": "Buy 2 snacks to get the freebie",
+          "coupon_type": "Free Item"
+        }
+      ],
+      "shop_Link": "https://bytesnacks.com",
+      "category": "Food",
+      "isSaleOn": true
+    },
+    {
+      "_id": "14",
+      "brand_name": "SnapShooter",
+      "rating": 4.3,
+      "description": "Digital cameras and accessories.",
+      "brand_logo": "https://i.ibb.co.com/SDvG3CZM/3d-render-yes-text-calligraphic-design.jpg",
+      "coupons": [
+        {
+          "coupon_code": "SNAP15",
+          "description": "15% off on all DSLR cameras.",
+          "expiry_date": "2025-08-15",
+          "condition": "Excludes lenses",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://snapshooter.com",
+      "category": "Photography",
+      "isSaleOn": true
+    },
+    {
+      "_id": "15",
+      "brand_name": "ChillGear",
+      "rating": 4.4,
+      "description": "Gaming gear that levels up your setup.",
+      "brand_logo": "https://i.ibb.co.com/PvZ4n1hb/laptop-with-blank-black-screen-white-table.jpg",
+      "coupons": [
+        {
+          "coupon_code": "CHILL30",
+          "description": "30% off all gaming chairs.",
+          "expiry_date": "2025-07-20",
+          "condition": "Applicable on select models only",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://chillgear.com",
+      "category": "Gaming",
+      "": true
+    }
+  ]
+  
