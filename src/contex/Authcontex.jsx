@@ -63,15 +63,21 @@ export default function Authcontex({ children }) {
 
 
     //manage user
-    onAuthStateChanged(auth, (users) => {
-        if (users) {
-            setuser(users)
-            setloding(false)
-        } else {
 
-            setuser(null)
-        }
-    });
+    useEffect(()=>{
+    const unsubscribe=    onAuthStateChanged(auth, (users) => {
+            if (users) {
+                setuser(users)
+                
+            } else {
+    
+                setuser(null)
+            }
+            setloding(false)
+            return ()=>{unsubscribe()}
+        });
+    },[])
+    
 
 
     const authinfo = {
@@ -82,7 +88,8 @@ export default function Authcontex({ children }) {
         user,
         setuser,
         handlelogin,
-        loding
+        loding,
+        setloding
 
     }
     return (

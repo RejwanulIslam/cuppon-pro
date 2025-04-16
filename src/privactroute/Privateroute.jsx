@@ -3,14 +3,15 @@ import { authcontex } from '../contex/Authcontex'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 
 export default function Privateroute({ children }) {
-    const { user, loding } = useContext(authcontex)
+    const { user, loding,setloding } = useContext(authcontex)
     const location = useLocation()
     const navigate = useNavigate()
     console.log(location)
 
     if (loding) {
         return <div className='flex justify-center '><span  className=" loading loading-spinner text-neutral"></span></div>
-   
+
+        
     }
 
     if (!user) {
