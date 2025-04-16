@@ -15,6 +15,9 @@ export default function Home() {
   return (
 
     <div>
+      <div className='h-1/2'>
+        <Slider></Slider>
+      </div>
       <div className='flex overflow-hidden'>
         {
           cupondata.map(data => <CupponImg data={data}></CupponImg>)
